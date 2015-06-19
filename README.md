@@ -9,7 +9,7 @@ createElement is the function name
 It is the element you want to create
 
 # finish 
-It is whethere it is "<img /> , <br /> , <input />" which finish in just one tag for this pass 1 and if it is like normal elements  "<div></div>, <h1></h1>" which finisghes in two tags then pass 0
+It is whethere it is "&lt;img /&gt; , &lt;br /&gt; , &lt;input /&gt;" which finish in just one tag for this pass 1 and if it is like normal elements  "&lt;div&gt;&lt;/div&gt;, &lt;h1&gt;&lt;/h1&gt;" which finisghes in two tags then pass 0
 
 # classArray 
 It is array which includes class  
