@@ -1,5 +1,25 @@
     function createElement(elem, finish, classArray , AttrArray)
     {
+        if(typeof elem == undefined)
+        {
+            elem = "div";
+        }
+
+        if(typeof finish == undefined)
+        {
+            finish = 0;
+        }
+
+        if(typeof elem == undefined)
+        {
+            classArray = [];
+        }
+
+        if(typeof elem == undefined)
+        {
+            AttrArray = [];
+        }
+        
 
         var $Div;
         if(finish == 1)
@@ -32,7 +52,3 @@
 
         return $Div ;
     }
-  
-    
-    
-    
