@@ -1,25 +1,26 @@
     function createElement(elem, finish, classArray , AttrArray)
     {
-        if(typeof elem == undefined)
+
+        if( elem == undefined)
         {
             elem = "div";
         }
 
-        if(typeof finish == undefined)
+        if( finish == undefined)
         {
             finish = 0;
         }
 
-        if(typeof elem == undefined)
+        if( classArray == undefined)
         {
             classArray = [];
         }
 
-        if(typeof elem == undefined)
+        if( AttrArray == undefined)
         {
             AttrArray = [];
         }
-        
+
 
         var $Div;
         if(finish == 1)
